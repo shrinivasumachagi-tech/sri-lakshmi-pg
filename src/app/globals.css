@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', 'Noto Sans Kannada', ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #b90a5a;
+  --color-primary-container: #ff4d8d;
+  --color-on-primary-container: #5b0028;
+  --color-inverse-primary: #ffb1c4;
+  --color-primary-fixed: #ffd9e0;
+  --color-primary-fixed-dim: #ffb1c4;
+  --color-on-primary-fixed: #3f001a;
+  --color-on-primary-fixed-variant: #8f0043;
+  --color-secondary: #6b38d4;
+  --color-secondary-container: #8455ef;
+  --color-on-secondary-container: #fffbff;
+  --color-secondary-fixed: #e9ddff;
+  --color-secondary-fixed-dim: #d0bcff;
+  --color-on-secondary-fixed: #23005c;
+  --color-on-secondary-fixed-variant: #5516be;
+  
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f3ff;
+  --color-surface-container: #eaedff;
+  --color-surface-container-high: #e2e7ff;
+  --color-surface-container-highest: #dae2fd;
+  --color-surface-variant: #dae2fd;
+  --color-surface-dim: #d2d9f4;
+  --color-surface-bright: #faf8ff;
+  
+  --color-outline: #8d7076;
+  --color-outline-variant: #e1bec5;
+
+  --color-background: #faf8ff;
+  --color-on-background: #131b2e;
+  --color-on-surface: #131b2e;
+  --color-on-surface-variant: #594046;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 10px 40px -10px rgba(0,0,0,0.1);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .bg-gradient-brand {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  }
+}

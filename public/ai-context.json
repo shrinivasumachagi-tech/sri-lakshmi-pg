@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Hostel",
+  "name": "Sri Lakshmi Ladies PG",
+  "alternateName": "ಶ್ರೀ ಲಕ್ಷ್ಮಿ ಲೇಡೀಸ್ ಪಿಜಿ",
+  "description": "Premium women's PG accommodation in Davangere, Karnataka. Safe, fully-furnished rooms with 24/7 security, CCTV, hygienic vegetarian food, WiFi, housekeeping, and power backup for students and working professionals.",
+  "url": "https://shrilakshmipg.com",
+  "telephone": "+91-9844127319",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Davangere",
+    "addressRegion": "Karnataka",
+    "addressCountry": "IN"
+  },
+  "priceRange": "₹6000 - ₹15000/month",
+  "amenities": [
+    "CCTV Security",
+    "Hygienic Food",
+    "High Speed WiFi",
+    "Power Backup",
+    "Housekeeping",
+    "RO Water",
+    "Laundry Service",
+    "Attached Bathrooms",
+    "Dining Hall",
+    "Study Area"
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": ["Students", "Working Professionals", "Women"]
+  },
+  "availableLanguage": ["English", "Kannada"],
+  "knowsAbout": [
+    "Women's PG in Davangere",
+    "Ladies hostel Davangere",
+    "Student accommodation Davangere",
+    "Working women PG Davangere"
+  ],
+  "areaServed": {
+    "@type": "City",
+    "name": "Davangere",
+    "sameAs": "https://en.wikipedia.org/wiki/Davangere"
+  }
+}

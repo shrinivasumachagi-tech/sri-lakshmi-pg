@@ -1,0 +1,258 @@
+{
+  "Navigation": {
+    "about": "About",
+    "facilities": "Facilities",
+    "rooms": "Rooms",
+    "food": "Dining",
+    "gallery": "Gallery",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "admission": "Admission",
+    "brand": "Sri Lakshmi Ladies PG"
+  },
+  "Hero": {
+    "title": "Safe, Comfortable & Premium Accommodation for Women in Davangere",
+    "subtitle": "Experience a home away from home with modern amenities, round-the-clock security, and a supportive community for students and working professionals.",
+    "applyNow": "Apply Now",
+    "contactWarden": "Contact Warden",
+    "virtualTour": "Virtual Tour",
+    "features": {
+      "cctv": "CCTV Security",
+      "food": "Hygienic Food",
+      "wifi": "High Speed WiFi",
+      "location": "Prime Location",
+      "support": "24/7 Support"
+    }
+  },
+  "Statistics": {
+    "happyResidents": "Happy Residents",
+    "roomsAvailable": "Rooms Available",
+    "yearsOfTrust": "Years of Trust",
+    "mealsServed": "Meals Served Daily"
+  },
+  "About": {
+    "title": "About Sri Lakshmi Ladies PG",
+    "subtitle": "A premium living space designed for women who value comfort, safety, and community.",
+    "description": "Located in the heart of Davangere, Sri Lakshmi Ladies PG offers fully furnished accommodation with modern amenities. We are dedicated to providing a safe, comfortable, and supportive environment for students and working professionals. Our facility features 24/7 security, CCTV surveillance, hygienic food, high-speed WiFi, and a welcoming community that makes you feel at home.",
+    "mission": "Our mission is to create a home away from home where every resident feels safe, respected, and empowered to pursue her dreams.",
+    "readMore": "Read More"
+  },
+  "Facilities": {
+    "title": "Premium Facilities",
+    "subtitle": "Everything you need for a comfortable and secure stay, thoughtfully arranged for your daily convenience.",
+    "items": {
+      "furnished": "Fully Furnished Rooms",
+      "cctv": "CCTV Monitoring",
+      "bathroom": "Attached Bathrooms",
+      "water": "RO Water",
+      "laundry": "Laundry Service",
+      "backup": "Power Backup",
+      "wifi": "High Speed WiFi",
+      "dining": "Dining Hall",
+      "housekeeping": "Housekeeping"
+    }
+  },
+  "Rooms": {
+    "title": "Room Gallery",
+    "subtitle": "Choose from our range of comfortable and well-appointed rooms designed for your needs.",
+    "all": "All Rooms",
+    "single": "Single Sharing",
+    "double": "Double Sharing",
+    "triple": "Triple Sharing",
+    "premium": "Premium Single Room",
+    "comfort": "Comfort Double Sharing",
+    "standard": "Standard Triple Sharing",
+    "bookNow": "Book Now",
+    "preview": "Preview Coming Soon"
+  },
+  "Food": {
+    "title": "Hygienic Home Food",
+    "subtitle": "We understand the importance of good food. That's why we serve highly nutritious, 100% vegetarian meals daily.",
+    "breakfast": "Breakfast",
+    "breakfastDesc": "Healthy south Indian breakfast with tea or coffee",
+    "lunch": "Lunch",
+    "lunchDesc": "Full meals with 2 curries, rice, dal and more",
+    "snacks": "Snacks",
+    "snacksDesc": "Evening snacks with hot beverages",
+    "dinner": "Dinner",
+    "dinnerDesc": "Light and nutritious dinner varieties"
+  },
+  "Gallery": {
+    "title": "Our Gallery",
+    "subtitle": "Take a visual tour of our premium facility and see why residents love calling this home.",
+    "all": "All Photos",
+    "building": "Building",
+    "rooms": "Rooms",
+    "dining": "Dining",
+    "common": "Common Areas"
+  },
+  "Testimonials": {
+    "title": "What Our Residents Say",
+    "subtitle": "Hear from the women who call Sri Lakshmi Ladies PG their home away from home.",
+    "items": [
+      {
+        "name": "Priya K.",
+        "role": "Student, Bapuji College",
+        "text": "Sri Lakshmi PG has been my home for 2 years. The security, food, and atmosphere are unmatched. I feel completely safe here."
+      },
+      {
+        "name": "Ananya S.",
+        "role": "Software Professional",
+        "text": "As a working professional, I needed a place that offered peace and comfort. This PG exceeded my expectations. The WiFi is great!"
+      },
+      {
+        "name": "Megha R.",
+        "role": "Medical Student",
+        "text": "The study environment here is fantastic. Quiet, well-lit rooms and supportive staff make it perfect for students."
+      },
+      {
+        "name": "Spoorthi M.",
+        "role": "Graduate Student",
+        "text": "I love the food and the cleanliness. It truly feels like a second home. Highly recommended for any woman moving to Davangere."
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our PG accommodation.",
+    "items": [
+      {
+        "q": "What are the check-in and check-out timings?",
+        "a": "Check-in is from 10:00 AM onwards. Check-out is before 12:00 PM on the departure date. Early check-in and late check-out can be arranged with prior notice."
+      },
+      {
+        "q": "Is visitor entry allowed?",
+        "a": "Family visitors are allowed during designated hours (9:00 AM to 7:00 PM) with prior registration at the reception. All visitors must provide valid ID proof."
+      },
+      {
+        "q": "What is the food menu like?",
+        "a": "We serve 100% vegetarian, home-style meals. Breakfast, lunch, evening snacks, and dinner are provided. Special dietary requirements can be accommodated."
+      },
+      {
+        "q": "Is there a curfew?",
+        "a": "The main gate closes at 9:30 PM. Residents can request late entry with prior intimation to the warden. 24/7 security ensures safe entry at all hours."
+      },
+      {
+        "q": "How is the billing done?",
+        "a": "Rent is charged on a monthly basis, payable in advance by the 5th of every month. We accept UPI, bank transfer, and cash payments."
+      },
+      {
+        "q": "Are laundry services included?",
+        "a": "Yes, we have washing machines available for resident use. Laundry service can also be arranged at nominal charges."
+      }
+    ]
+  },
+  "Admission": {
+    "title": "Admission Form",
+    "subtitle": "Fill in your details to apply for accommodation at Sri Lakshmi Ladies PG.",
+    "step1Title": "Personal Details",
+    "step1Desc": "Your personal and contact information.",
+    "step2Title": "Guardian & Academic",
+    "step2Desc": "Parent/guardian details and college information.",
+    "step3Title": "Documents & Submit",
+    "step3Desc": "Upload required documents and submit your application.",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Janani Sharma",
+    "email": "Email Address",
+    "emailPlaceholder": "janani@example.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "98765 43210",
+    "whatsapp": "WhatsApp Number",
+    "whatsappPlaceholder": "98765 43210",
+    "dob": "Date of Birth",
+    "parentName": "Parent/Guardian Name",
+    "parentNamePlaceholder": "Ramesh Sharma",
+    "parentPhone": "Parent Phone Number",
+    "parentPhonePlaceholder": "98765 43211",
+    "address": "Address",
+    "addressPlaceholder": "Building, Street, City, State, Pincode",
+    "collegeName": "College Name",
+    "collegeNamePlaceholder": "Bapuji Institute of Engineering",
+    "courseName": "Course Name",
+    "courseNamePlaceholder": "B.Tech Computer Science",
+    "roomType": "Room Type",
+    "single": "1-Sharing",
+    "singleLabel": "Premium Private",
+    "double": "2-Sharing",
+    "doubleLabel": "Most Popular",
+    "triple": "3-Sharing",
+    "tripleLabel": "Best Value",
+    "stayDuration": "Stay Duration",
+    "duration1m": "1 Month",
+    "duration3m": "3 Months",
+    "duration6m": "6 Months",
+    "duration1y": "1 Year",
+    "idProof": "ID Proof (Aadhaar / PAN / Passport)",
+    "photo": "Passport Size Photo",
+    "uploadHint": "PNG, JPG or PDF (Max 5MB)",
+    "uploadSecurity": "Your documents are securely encrypted and stored. They are used only for mandatory police verification.",
+    "readyTitle": "Review & Submit",
+    "readyDesc": "Please review your details. By submitting, you agree to the House Rules and Privacy Policy.",
+    "agree": "I agree to the House Rules and Privacy Policy.",
+    "step": "Step",
+    "of": "of",
+    "complete": "Complete",
+    "next": "Next Step",
+    "back": "Back",
+    "submit": "Submit Application",
+    "processing": "Processing...",
+    "successTitle": "Application Submitted!",
+    "successDesc": "Your application has been securely submitted. Our warden will review your details and reach out shortly.",
+    "submitAnother": "Submit Another",
+    "required": "This field is mandatory"
+  },
+  "Contact": {
+    "title": "Get In Touch",
+    "subtitle": "Visit us, call us, or send a message. We'd love to hear from you.",
+    "address": "Davangere, Karnataka",
+    "phone": "+91 98441 27319",
+    "phone2": "+91 76768 22216",
+    "email": "contact@shrilakshmipg.com",
+    "helpline": "Helpline Numbers",
+    "warden": "Contact Warden",
+    "whatsapp": "WhatsApp Us",
+    "callNow": "Call Now",
+    "mapPlaceholder": "Google Maps Placeholder",
+    "formName": "Your Name",
+    "formNamePlaceholder": "Enter your name",
+    "formEmail": "Your Email",
+    "formEmailPlaceholder": "Enter your email",
+    "formMessage": "Your Message",
+    "formMessagePlaceholder": "Tell us how we can help...",
+    "formSubmit": "Send Message",
+    "formSuccess": "Message sent successfully! We'll get back to you soon.",
+    "formError": "Failed to send message. Please try again."
+  },
+  "Footer": {
+    "description": "Redefining luxury living for modern women in the heart of Davangere.",
+    "quickLinks": "Quick Links",
+    "amenities": "Amenities",
+    "pricing": "Room Pricing",
+    "safety": "Safety Features",
+    "contactUs": "Contact Us",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Email",
+    "copyright": "Sri Lakshmi Ladies PG. All rights reserved."
+  },
+  "Admin": {
+    "login": "Admin Login",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "dashboard": "Dashboard",
+    "admissions": "Admissions",
+    "gallery": "Gallery",
+    "faq": "FAQ",
+    "testimonials": "Testimonials",
+    "search": "Search admissions...",
+    "exportCSV": "Export CSV",
+    "delete": "Delete",
+    "view": "View",
+    "noResults": "No admissions found.",
+    "total": "Total",
+    "pending": "Pending",
+    "confirmed": "Confirmed"
+  }
+}

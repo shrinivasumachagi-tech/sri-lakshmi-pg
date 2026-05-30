@@ -1,0 +1,67 @@
+{
+  "business": {
+    "name": "Sri Lakshmi Ladies PG",
+    "type": "Women's Paying Guest Accommodation",
+    "location": "Davangere, Karnataka, India",
+    "established": 2017,
+    "languages": ["English", "Kannada"]
+  },
+  "contact": {
+    "phone": "+91 98441 27319",
+    "alternatePhone": "+91 76768 22216",
+    "email": "contact@shrilakshmipg.com",
+    "whatsapp": "+919844127319"
+  },
+  "facilities": {
+    "security": ["24/7 CCTV surveillance", "Female wardens", "Secure entry system"],
+    "rooms": ["Single sharing", "Double sharing", "Triple sharing"],
+    "food": ["100% vegetarian", "Breakfast, lunch, snacks, dinner", "Home-style cooking"],
+    "amenities": ["High-speed WiFi", "Power backup", "Housekeeping", "RO water purifier", "Laundry service", "Attached bathrooms", "Study area", "Common room", "Prayer room"],
+    "safety": ["24/7 security", "CCTV cameras", "Visitor registration", "Emergency contact system"]
+  },
+  "pricing": {
+    "range": "₹6,000 - ₹15,000 per month",
+    "includes": ["Room rent", "Food", "WiFi", "Housekeeping"],
+    "securityDeposit": "Refundable (2 months rent)"
+  },
+  "admission": {
+    "process": [
+      "Fill online admission form",
+      "Submit ID proof (Aadhaar, College ID, Photo)",
+      "Warden reviews application",
+      "Visit and confirm room",
+      "Pay deposit and move in"
+    ],
+    "requiredDocuments": ["Aadhaar Card", "College/Work ID", "Passport size photo", "Parent/Guardian contact details"]
+  },
+  "rules": {
+    "curfew": "Main gate closes at 9:30 PM",
+    "visitors": "Family visitors allowed 9 AM - 7 PM with prior registration",
+    "food": "Outside food not allowed in rooms",
+    "guests": "No overnight guests permitted",
+    "noise": "Silence after 10 PM in study areas"
+  },
+  "nearby": {
+    "colleges": ["Bapuji College", "University of Davangere", "Medical College Davangere"],
+    "transport": ["Davangere Bus Stand (1 km)", "Railway Station (3 km)"],
+    "hospitals": ["District Hospital", "Multiple private clinics"]
+  },
+  "faq": [
+    {
+      "question": "What are the check-in timings?",
+      "answer": "Check-in is from 10:00 AM onwards."
+    },
+    {
+      "question": "Is food included?",
+      "answer": "Yes, 100% vegetarian breakfast, lunch, snacks, and dinner are included."
+    },
+    {
+      "question": "Is WiFi available?",
+      "answer": "Yes, high-speed WiFi is available throughout the building."
+    },
+    {
+      "question": "What is the rent?",
+      "answer": "Rent ranges from ₹6,000 to ₹15,000 per month depending on room type."
+    }
+  ]
+}
