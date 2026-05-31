@@ -12,7 +12,7 @@ import FAQ from '@/components/FAQ';
 import AdmissionForm from '@/components/AdmissionForm';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
-import ChatAssistant from '@/components/ChatAssistant';
+import AIChat from '@/components/AIChat';
 
 export default async function Home({
   params,
@@ -37,7 +37,7 @@ export default async function Home({
       <AdmissionForm />
       <Contact />
       <Footer />
-      <ChatAssistant />
+      <AIChat />
     </main>
   );
 }

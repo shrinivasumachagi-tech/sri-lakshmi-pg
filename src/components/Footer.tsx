@@ -1,6 +1,8 @@
 'use client';
 import { useTranslations } from 'next-intl';
 import { Send, MapPin, Phone, Mail, Heart } from 'lucide-react';
+import Image from 'next/image';
+import logo from '@/components/Images/Sri laxmi logo.jpg';
 
 export default function Footer() {
   const t = useTranslations('Footer');
@@ -11,8 +13,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-16">
           <div className="space-y-5">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-brand flex items-center justify-center text-white font-black text-sm shadow-lg">
-                SL
+              <div className="relative w-12 h-12 rounded-2xl overflow-hidden shadow-lg ring-2 ring-primary/20">
+                <Image src={logo} alt="Shri Laxmi PG Logo" fill className="object-cover" />
               </div>
               <span className="font-bold text-xl tracking-tight text-on-surface">
                 Sri Lakshmi PG

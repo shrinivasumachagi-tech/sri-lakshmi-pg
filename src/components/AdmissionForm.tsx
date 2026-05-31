@@ -20,7 +20,7 @@ import { admissionSchema, type AdmissionFormData } from '@/lib/validations';
 const stepsFields: (keyof AdmissionFormData)[][] = [
   ['fullName', 'phone', 'whatsapp', 'email', 'dob'],
   ['parentName', 'parentPhone', 'address', 'collegeName', 'courseName', 'roomType', 'stayDuration'],
-  ['idProof', 'photo', 'terms'],
+  ['terms'],
 ];
 
 export default function AdmissionForm() {
@@ -338,7 +338,7 @@ export default function AdmissionForm() {
                           accept=".png,.jpg,.jpeg,.pdf"
                           onChange={(e: ChangeEvent<HTMLInputElement>) => {
                             const file = e.target.files?.[0] || null;
-                            setValue('idProof', file, { shouldValidate: true });
+                            setValue('idProof', file, { shouldValidate: false });
                           }}
                         />
                         <div className="flex items-center gap-3">
@@ -350,12 +350,11 @@ export default function AdmissionForm() {
                               {idProofFile instanceof File ? idProofFile.name : t('idProof')}
                             </p>
                             <p className="text-xs text-gray-400">
-                              {idProofFile instanceof File ? 'Selected' : t('uploadHint')}
+                              {idProofFile instanceof File ? 'Selected' : t('uploadHint')} (Optional)
                             </p>
                           </div>
                         </div>
                       </label>
-                      {errors.idProof && <p className={errorCls}>{String(errors.idProof.message)}</p>}
 
                       {/* Photo */}
                       <label className="border border-gray-200 rounded-xl p-4 hover:border-pink-400 hover:bg-pink-50/30 transition-all cursor-pointer block">
@@ -365,7 +364,7 @@ export default function AdmissionForm() {
                           accept=".png,.jpg,.jpeg"
                           onChange={(e: ChangeEvent<HTMLInputElement>) => {
                             const file = e.target.files?.[0] || null;
-                            setValue('photo', file, { shouldValidate: true });
+                            setValue('photo', file, { shouldValidate: false });
                           }}
                         />
                         <div className="flex items-center gap-3">
@@ -377,12 +376,11 @@ export default function AdmissionForm() {
                               {photoFile instanceof File ? photoFile.name : t('photo')}
                             </p>
                             <p className="text-xs text-gray-400">
-                              {photoFile instanceof File ? 'Selected' : t('uploadHint')}
+                              {photoFile instanceof File ? 'Selected' : t('uploadHint')} (Optional)
                             </p>
                           </div>
                         </div>
                       </label>
-                      {errors.photo && <p className={errorCls}>{String(errors.photo.message)}</p>}
                     </div>
 
                     <div className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-100">

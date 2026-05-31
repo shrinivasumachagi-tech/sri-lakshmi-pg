@@ -24,12 +24,8 @@ export const admissionSchema = z.object({
   courseName: z.string().min(2, 'This field is mandatory'),
   roomType: z.string().min(1, 'This field is mandatory'),
   stayDuration: z.string().min(1, 'This field is mandatory'),
-  idProof: z.any().refine((v) => v instanceof File && v.size > 0, {
-    message: 'ID proof is required',
-  }),
-  photo: z.any().refine((v) => v instanceof File && v.size > 0, {
-    message: 'Photo is required',
-  }),
+  idProof: z.any().optional(),
+  photo: z.any().optional(),
   terms: z.literal(true, {
     message: 'You must agree to terms',
   }),

@@ -5,6 +5,8 @@ import { Link } from '@/i18n/routing';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
+import logo from '@/components/Images/Sri laxmi logo.jpg';
 
 const navLinks = ['about', 'facilities', 'rooms', 'food', 'gallery', 'testimonials', 'faq', 'contact'] as const;
 
@@ -17,8 +19,8 @@ export default function Navbar() {
       <div className="absolute inset-0 bg-white/70 backdrop-blur-lg border-b border-outline-variant/20" />
       <nav className="relative max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-9 h-9 rounded-xl bg-gradient-brand flex items-center justify-center text-white font-black text-sm shadow-lg">
-            SL
+          <div className="relative w-12 h-12 rounded-2xl overflow-hidden shadow-lg ring-2 ring-primary/20 group-hover:ring-primary/40 transition-all duration-300 group-hover:scale-105">
+            <Image src={logo} alt="Shri Laxmi PG Logo" fill className="object-cover" />
           </div>
           <span className="font-bold text-xl tracking-tight text-on-surface hidden sm:block group-hover:text-primary transition-colors">
             {t('brand')}
